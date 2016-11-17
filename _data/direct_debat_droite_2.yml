@@ -2,8 +2,8 @@
   content: |
     Rubrique : "ça se passe de commentaire":
 
-    > "Quand on est parlementaire on est d'abord pour suivre l'exécutif"
-    
+    > &laquo;&nbsp;Quand on est parlementaire on l'est d'abord pour suivre l'exécutif.&nbsp;&raquo;
+
     <p class="text-right">Copé</p>
 
 - time: "21:25"
