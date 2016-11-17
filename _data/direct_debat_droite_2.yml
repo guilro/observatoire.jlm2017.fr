@@ -1,6 +1,8 @@
 - time: "22:46"
   content: |
     #OFF : Les pizzas arrivent ! Cris de joie dans l’observatoire !
+  image: photos/22_48.jpg
+  img_full_width: true
 
 - time: "22:45"
   content: |
