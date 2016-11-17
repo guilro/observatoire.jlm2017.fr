@@ -17,6 +17,10 @@
     {% else %}
       {{ event.content | markdownify }}
     {% endif %}
+    <p class="text-right small">
+      <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A//observatoire.jlm2017.fr/%23{{ event.time | replace, ':', '_' }}">Partager sur Facebook</a>{% unless event.twitter_share == false %} -
+      <a target="_blank" href="https://twitter.com/home?status={{ event.content | url_encode | slice: 0, 101}}%20https%3A//observatoire.jlm2017.fr/%23{{ event.time | replace, ':', '_' }}">Partager sur Twitter</a>{% endunless %}
+    </p>
   </div>
   {% unless forloop.last %}
     <p class="text-center">--</p>
