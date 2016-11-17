@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta property="og:url" content="https://www.youtube.com/watch?v=DH3HuoOh37w" />
+    {% seo %}
+    <link rel="stylesheet" href="https://jlm2017.github.io/theme/dist/theme.css" media="screen">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
+      <script src="../bower_components/respond/dest/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-collapse">
+            <span class="sr-only">Activer la navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/"><img alt=" " src="https://jlm2017.github.io/theme/images/jlm_2017.png"></a>
+        </div>
+        <div id="menu-collapse" class="collapse navbar-collapse">
+          <div id="menu-export"></div>
+          <script>
+          (function() {
+            /** SETTINGS **/
+            var themeLocation = 'primary_navigation';
+            var addBootstrapCSS = true;
+            var menu_class = 'nav%20navbar-nav%20navbar-right';
+            var container = '';
+
+            var r = new XMLHttpRequest();
+            r.open('GET', 'https://actus.jlm2017.fr/?menu_export=1&theme_location='+themeLocation+
+            '&menu_class='+menu_class+'&container='+container+
+            (addBootstrapCSS?'&bootstrap=1':''),true);
+            r.onreadystatechange=function(){if(r.readyState!=4||r.status!=200)return;
+            document.getElementById('menu-export').innerHTML = r.responseText;};
+            r.send();
+          })();
+          </script>
+    </div>
+      </div>
+    </nav>
+    <nav class="navbar navbar-supporter">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#supporter-nav-collapse">
+            <span class="sr-only">Activer la navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="supporter-nav-collapse" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav" role="group">
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      {{ content }}
+    </div>
+    <footer>
+      <div class="container">
+        <section class="widget text-5 widget_text">
+          <div class="textwidget">
+            <div class="row social text-center bottom-margin">
+              <div class="col-sm-2 col-sm-offset-3 col-xs-4">
+                <a href="https://twitter.com/JLMelenchon" target="_blank"><i class="fa fa-twitter fa-3x"></i></a>
+              </div>
+              <div class="col-sm-2 col-xs-4">
+                <a href="https://www.facebook.com/JLMelenchon" target="_blank"><i class="fa fa-facebook fa-3x"></i></a>
+              </div>
+              <div class="col-sm-2 col-xs-4">
+                <a href="https://www.youtube.com/user/PlaceauPeuple" target="_blank"><i class="fa fa-youtube-play fa-3x"></i></a>
+              </div>
+            </div>
+            <div class="row bottom-margin">
+              <hr>
+              <div class="col-sm-3 col-xs-6">Je m’implique&nbsp;:<br>
+                <a href="http://www.jlm2017.fr/agir">J’agis</a><br>
+                <a href="http://www.jlm2017.fr/donner">Je donne</a><br>
+                <a href="http://www.jlm2017.fr/inscription_detail">J’en dis plus sur moi</a><br>
+                <a href="http://www.jlm2017.fr/signup">Je crée un compte</a>
+              </div>
+              <div class="col-sm-3 col-xs-6">Réseaux sociaux&nbsp;:<br>
+                <a href="https://www.facebook.com/JLMelenchon/">Facebook</a><br>
+                <a href="https://twitter.com/JLMelenchon">Twitter</a><br>
+                <a href="https://www.youtube.com/user/PlaceauPeuple">Youtube</a><br>
+                <a href="http://plus.google.com/+JLMelenchon/">Google+</a><br>
+                <a href="http://instagram.com/jlmelenchon/">Instagram</a><br>
+              </div>
+              <div class="col-sm-3 col-xs-6">Groupes d’appui&nbsp;:<br>
+                <a href="http://www.jlm2017.fr/groupes_appui">La carte des groupes</a><br>
+                <a href="http://www.jlm2017.fr/actualites-groupes-appui">L'actu des groupes d'appui</a><br>
+                <a href="http://www.jlm2017.fr/creer_ou_rejoindre_un_groupe_d_appui">Créer ou rejoindre un groupe</a>
+                <hr>
+                <a href="http://www.jlm2017.fr/materiel">Matériel</a>
+              </div>
+              <div class="col-sm-3 col-xs-6">Evènements&nbsp;:<br>
+                <a href="http://www.jlm2017.fr/agenda_melenchon">L’agenda de JLM</a><br>
+                <a href="http://www.jlm2017.fr/evenements_locaux">Evènements locaux</a><br>
+                <hr>
+                <a href="https://actus.jlm2017.fr/formulaire-de-contact">Contact</a> - <a href="http://www.jlm2017.fr/mentions_legales">Mentions  légales</a><br>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://jlm2017.github.io/theme/dist/components.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-57940932-7', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>
