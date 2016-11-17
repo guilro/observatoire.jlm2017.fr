@@ -1,3 +1,8 @@
+- time: "20:30"
+  content: |
+    Bienvenue dans l'Observatoire insoumis&nbsp;!
+  image: photos/20_30.jpg
+
 - time: "20:18"
   content: |
     En attendant le début de ce direct depuis l'observatoire insoumis, on vous
