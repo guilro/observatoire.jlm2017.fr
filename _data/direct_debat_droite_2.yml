@@ -1,7 +1,15 @@
+- time: "21:07"
+  content: |
+    "Tiens ils parlent de souffrance des gens dans leur intro. Ca nous étonne pas vu leur programme !"
+  image: photos/21-07.jpg
+  img_full_width: true
+
 - time: "21:05"
   content: |
     Juppé dit vouloir renforcer l'Etat. Vraiment ? On a des doutes...
   image: photos/21-05.jpg
+  img_full_width: true
+
 
 - time: "21:02"
   content: |
