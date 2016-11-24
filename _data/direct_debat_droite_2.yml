@@ -1,3 +1,11 @@
+- time: "22:30"
+  content: |
+    > «Quand on va chez quelqu'un, on ne prend pas le pouvoir».
+
+    <p class="text-right">Fillon, le châtelain a parlé.</p>
+  image: photos/22-30.png
+  img_full_width: true
+
 - time: "22:28"
   content: |
     <blockquote class="twitter-tweet" data-lang="en"><p lang="fr" dir="ltr"><a href="https://twitter.com/hashtag/filiation?src=hash">#filiation</a> Et l&#39;adoption sous X c&#39;est pas une rupture de la filiation ? Quelle stigmatisation ! <a href="https://twitter.com/hashtag/LeGrandDebat?src=hash">#LeGrandDebat</a> <a href="https://twitter.com/hashtag/Obsinsoumis?src=hash">#Obsinsoumis</a></p>&mdash; Manon Dervin (@ManonDervin) <a href="https://twitter.com/ManonDervin/status/801899164506484736">November 24, 2016</a></blockquote>
