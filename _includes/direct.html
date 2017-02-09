@@ -19,7 +19,7 @@
     {% endif %}
     <p class="text-right small">
       <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A//observatoire.jlm2017.fr/%23{{ event.time | replace, ':', '_' }}">Partager sur Facebook</a> -
-      <a target="_blank" href="https://twitter.com/home?status={{ event.content | markdownify | strip_html | url_encode | slice: 0, 101}}%0A%20https%3A//observatoire.jlm2017.fr/%23{{ event.time | replace, ':', '_' }}">Partager sur Twitter</a>
+      <a target="_blank" href="https://twitter.com/home?status={{ event.content | markdownify | strip_html | url_encode | slice: 0, 116}}%0A%20https%3A//observatoire.jlm2017.fr/%23{{ event.time | replace, ':', '_' }}">Partager sur Twitter</a>
     </p>
   </div>
   {% unless forloop.last %}
