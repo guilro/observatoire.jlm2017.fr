@@ -1,3 +1,4 @@
+data_dir: data
 kramdown:
    input: GFM
    hard_wrap: false
