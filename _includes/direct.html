@@ -1,5 +1,6 @@
 {% for event in site.data[direct] %}
-  <div class="col-xs-2 col-sm-1 text-important" id="{{ event.time | replace, ':', '_' }}">
+<div id="{{ event.time | replace, ':', '_' }}">
+  <div class="col-xs-2 col-sm-1 text-important">
     {{ event.time }}
   </div>
   <div class="col-xs-10 col-sm-11">
@@ -25,4 +26,5 @@
   {% unless forloop.last %}
     <p class="text-center">--</p>
   {% endunless %}
+</div>
 {% endfor %}
