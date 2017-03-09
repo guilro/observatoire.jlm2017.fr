@@ -1,7 +1,19 @@
-- time: "21:20"
+- time: "21:22"
+  content: |
+    On prend les mêmes promesses pour faire pareil ? C’est à dire rien.
+  image: photos/21_22.jpg
+  img_full_width: true
+
+- time: "21:18"
+  content: |
+    Renégocier les traités sans PlanB. Qui rappelle à Hamon que quand la Grèce a essayé ça n'a pas marché ?
+  image: photos/21_18.jpg
+  img_full_width: true
+
+- time: "21:15"
   content: |
     Note pour Hamon : au bout de 35ans ça commence à se voir...
-  image: photos/21_20.jpg
+  image: photos/21_15.jpg
   img_full_width: true
 
 - time: "21:07"
