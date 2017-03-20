@@ -1,7 +1,11 @@
+- time: "21:12"
+  image: photos/21-12.jpg
+  img_full_width: true
+
 - time: "21:08"
   content: |
     > &laquo;&nbsp;Votez et dégagez-les tous&nbsp;&raquo;
-    
+
     <p class="text-right">extrait du discours du 18 mars de Jean-Luc Mélenchon. Ça commence bien ce débat ! :)</p>
 
 - time: "20:57"
