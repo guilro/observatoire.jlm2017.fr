@@ -1,6 +1,6 @@
 - time: "23:20"
   image: photos/23-20.jpg
-  img_full_width: true    
+  img_full_width: true
 
 - time: "23:12"
   content: |
