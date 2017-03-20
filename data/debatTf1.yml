@@ -4,7 +4,6 @@
   image: photos/00-15.jpg
   img_full_width: true
 
-
 - time: "00:02"
   content: |
     <iframe width="1280" height="720" src="https://www.youtube.com/embed/T7b67QCjibc?rel=0" frameborder="0" allowfullscreen></iframe>
