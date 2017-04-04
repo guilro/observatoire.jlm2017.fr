@@ -1,3 +1,9 @@
+- time: "00:19"
+  content: |
+    Il faut en finir avec l'argent roi.
+  image: photos/00-19.jpg
+  img_full_width: true
+
 - time: "00:03"
   content: |
     Pour aller plus loin, voici comment nous finançons le remboursement à 100% des soins prescrits.
