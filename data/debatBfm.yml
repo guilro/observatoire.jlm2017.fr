@@ -4,13 +4,19 @@
 
 - time: "20:56"
   image: photos/20-56.jpg
+  content: |
+    > Nous agirons de toutes nos forces pour la paix, car la guerre menace.
   img_full_width: true
 
 - time: "20:55"
+  content: |
+    > Je veux abolir les traités européens et faire du neuf.
   image: photos/20-55.jpg
   img_full_width: true
 
 - time: "20:54"
+  content: |
+    > Je veux mettre fin aux turpitudes de la monarchie présidentielle. 
   image: photos/20-54.jpg
   img_full_width: true
 
