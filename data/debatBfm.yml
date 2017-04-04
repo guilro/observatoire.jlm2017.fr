@@ -1,3 +1,9 @@
+- time: "00:21"
+  content: |
+    Il faut passer à un mode de production écologique.
+  image: photos/00-21.jpg
+  img_full_width: true
+
 - time: "00:20"
   content: |
     &laquo;&nbsp;Il faut changer la Constitution et définir une nouvelle démocratie, une 6e République.&nbsp;&raquo;
