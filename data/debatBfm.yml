@@ -1,3 +1,7 @@
+- time: "20:56"
+  image: photos/20-56.jpg
+  img_full_width: true
+
 - time: "20:55"
   image: photos/20-55.jpg
   img_full_width: true
