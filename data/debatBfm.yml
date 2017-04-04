@@ -1,3 +1,9 @@
+- time: "00:01"
+  content: |
+    Il faut créer des centres de santé publics avec des médecins fonctionnaires pour en finir avec les déserts médicaux.
+  image: photos/00-01.jpg
+  img_full_width: true
+
 - time: "23:37"
   image: photos/23-37.jpg
   img_full_width: true
