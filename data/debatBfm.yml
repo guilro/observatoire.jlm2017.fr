@@ -1,3 +1,9 @@
+- time: "00:02"
+  content: |
+    Il faut créer 60 000 postes dans la santé.
+  image: photos/00-02.jpg
+  img_full_width: true
+
 - time: "00:01"
   content: |
     Il faut créer des centres de santé publics avec des médecins fonctionnaires pour en finir avec les déserts médicaux.
