@@ -1,4 +1,5 @@
 data_dir: data
+url: https://observatoire.jlm2017.fr
 kramdown:
    input: GFM
    hard_wrap: false
